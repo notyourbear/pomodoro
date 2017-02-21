@@ -30,13 +30,13 @@ const setDegree = (length, deg, time) => {
 		case (baseDeg <= 30):
 			body.setAttribute('style', `background-color:${colors.morning}`)
 			break;
-		case (baseDeg <= 45):
+		case (baseDeg <= 60):
 			body.setAttribute('style', `background-color:${colors.day}`)
 			break;
 		case (baseDeg <= 90):
 			body.setAttribute('style', `background-color:${colors.midday}`)
 			break;
-		case (baseDeg <= 175):
+		case (baseDeg <= 140):
 			body.setAttribute('style', `background-color:${colors.day}`)
 			break;
 		case (baseDeg <= 190):
