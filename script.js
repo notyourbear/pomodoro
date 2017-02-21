@@ -64,7 +64,7 @@ setInterval(() => {
 		pomodoro -= minute;
 		title.innerText = `WORK: ${new Date(pomodoro).getMinutes()} minutes left.`
 		brk = minute * 5;
-		deg = setDegree(5, deg)
+		deg = setDegree(25, deg)
 	} else {
 		deg = setDegree(5, deg)
 		brk -= minute;
