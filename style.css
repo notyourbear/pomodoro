@@ -1,0 +1,207 @@
+body {
+	background: #E08283;
+	-webkit-transition: background-color 3000ms linear;
+    -ms-transition: background-color 3000ms linear;
+    transition: background-color 3000ms linear;
+}
+
+.main {
+	width: 500px;
+	height: 300px;
+	padding: 10px;
+	margin: 220px auto;
+	position: relative;
+}
+
+.baseline {
+	width: 500px;
+	height: 0px;
+	margin: 148px 0;
+	position: relative;
+}
+
+.mountain {
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	z-index: 4;
+}
+
+.tall {
+	z-index: 3;
+}
+
+.one {
+	left: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 160px solid #ECC884;
+}
+
+.one.underworld {
+	border-bottom: 60px solid #C39B4E;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+}
+
+.two {
+	left: 70px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 140px solid #3a8c87;
+	z-index: 3;
+}
+
+.two.underworld {
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid #307873;
+}
+
+.three {
+	left: 90px;
+	border-left: 140px solid transparent;
+	border-right: 140px solid transparent;
+	border-bottom: 210px solid #3C5482;
+	z-index: 1;
+}
+
+.three.underworld {
+	border-bottom: 120px solid #233B6A;
+	border-left: 140px solid transparent;
+	border-right: 140px solid transparent;
+	left: 110px;
+}
+
+.four {
+	left: 220px;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 160px solid #ECB184;
+	z-index: 1;
+}
+
+.four.underworld {
+	border-bottom: 100px solid #C3814E;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	left: 180px;
+}
+
+.five {
+	right: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 90px solid #B6D7D5;
+	z-index: 1
+}
+
+.five.underworld {
+	border-bottom: 60px solid #82B5B1;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	right: 2px;
+}
+
+.first {
+	left: 40px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 40px solid #A37727;
+}
+
+.first.underworld {
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 30px solid #815504;
+}
+
+.second {
+	left: 86px;
+	border-left: 44px solid transparent;
+	border-right: 44px solid transparent;
+	border-bottom: 58px solid #A37727;
+}
+
+.second.underworld {
+	left: 86px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 45px solid #815504;
+}
+
+.third {
+	left: 120px;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 80px solid #A37727;
+}
+
+.third.underworld {
+	left: 100px;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 60px solid #815504;
+}
+
+.fourth {
+	left: 190px;
+	border-left: 85px solid transparent;
+	border-right: 85px solid transparent;
+	border-bottom: 95px solid #A37727;
+}
+
+.fourth.underworld {
+	border-bottom: 55px solid #815504;
+}
+
+.fifth {
+	left: 300px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 60px solid #A37727;
+}
+
+.fifth.underworld {
+	left: 280px;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 40px solid #815504;
+}
+.sixth {
+	left: 340px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 40px solid #A37727;
+}
+
+.sixth.underworld {
+	left: 380px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 30px solid #815504;
+}
+
+.underworld {
+	transform: rotate(180deg);
+	transform-origin: bottom;
+	z-index
+}
+
+.sun {
+	transform-origin: 250px 50px;
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	background: #ffff52;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 0px 30px 4px rgba(255,255,82,0.6);
+	-moz-box-shadow: 0px 0px 30px 4px rgba(255,255,82,0.6);
+	box-shadow: 0px 0px 30px 4px rgba(255,255,82,0.6);
+	transition: all 59s ease-out;
+}
